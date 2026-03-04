@@ -1,0 +1,2 @@
+# No external dependencies — uses Python stdlib only (json, re, http.server).
+# Required by Vercel to detect and deploy Python serverless functions.
