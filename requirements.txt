@@ -1,2 +1,3 @@
-# No external dependencies — uses Python stdlib only (json, re, http.server).
-# Required by Vercel to detect and deploy Python serverless functions.
+# FastAPI entrypoint for Vercel (api/index.py)
+fastapi>=0.115.0
+uvicorn>=0.32.0

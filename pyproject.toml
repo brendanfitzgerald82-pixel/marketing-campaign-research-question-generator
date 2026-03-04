@@ -1,0 +1,12 @@
+[project]
+name = "research-question-generator"
+version = "1.0.0"
+description = "Generate 4C's research questions from a strategic brief."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+]
+
+[project.scripts]
+app = "api.index:app"
